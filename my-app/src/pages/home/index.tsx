@@ -1,6 +1,7 @@
 import { Button } from '@material-ui/core';
 import * as React from 'react';
-import logo from './logo.svg';
+import logo from '../../logo.svg';
+import './index.css';
 
 export function Home() {
   return (
