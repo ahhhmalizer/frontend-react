@@ -31,3 +31,8 @@ steps:
       npm run build
     displayName: 'build'
     workingDirectory: my-app
+
+  - task: PublishBuildArtifacts@1
+    inputs:
+      PathtoPublish: '$(Build.SourcesDirectory)/my-app/build'
+      ArtifactName: 'drop'
