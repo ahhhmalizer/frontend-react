@@ -14,7 +14,7 @@ function _Home(props: RouteComponentProps) {
       <p className="App-intro">
         To get started, edit <code>src/App.tsx</code> and save to reload.
       </p>
-      <Button variant="contained" color="primary" onClick={() => props.history.push('/other')}>
+      <Button variant="contained" color="primary" onClick={() => props.history.push('/pick_audience')}>
         Hello World
       </Button>
     </div>
