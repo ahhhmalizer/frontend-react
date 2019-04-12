@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  height: calc(100vh - 64px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .App-logo {
@@ -16,6 +20,7 @@
 
 .App-title {
   font-size: 1.5em;
+  
 }
 
 .App-intro {
