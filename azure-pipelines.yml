@@ -19,7 +19,15 @@ steps:
 
   - script: |
       npm install
+    displayName: 'npm install'
+    workingDirectory: my-app
+
+  - script: |
       npm test
+    displayName: 'npm test'
+    workingDirectory: my-app
+
+  - script: |
       npm run build
-    displayName: 'npm install and build'
+    displayName: 'build'
     workingDirectory: my-app
