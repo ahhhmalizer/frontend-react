@@ -11,12 +11,12 @@ class Base extends React.Component {
   public render() {
     return (
       <React.Fragment>
-        <Header/>
+        <Header />
         <Switch>
-          <Route exact={true} path='/' component={Home}/>
-          <Route path='/pick_audience' component={PickAudience}/>
-          <Route path='/upload_video' component={UploadVideo}/>
-          <Route path='/result' component={Result}/>
+          <Route exact={true} path="/" component={Home} />
+          <Route path="/pick_audience" component={PickAudience} />
+          <Route path="/upload_video" component={UploadVideo} />
+          <Route path="/result" component={Result} />
         </Switch>
       </React.Fragment>
     );
