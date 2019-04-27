@@ -7,7 +7,7 @@ export class UploadVideo extends React.Component {
     const blobUri = 'https://ahhhmalizerstorage.blob.core.windows.net';
     this.blobService = (window as any).AzureStorage.Blob.createBlobServiceWithSas(
       blobUri,
-      '%2FXnkPTIbJYSI%2BbHB%2FrDdcjQqTGOPR%2BZ6bYn99IpovNU%3D'
+      '?sv=2018-03-28&ss=bfqt&srt=sco&sp=rwdlacup&st=2019-04-12T01%3A03%3A00Z&se=2019-04-15T01%3A03%3A00Z&sig=%2B%2Bwg8RJ0FYz4HP4OICOBVbJcz4kzG8MdD8BNqSsqEMk%3D'
     );
   }
 
